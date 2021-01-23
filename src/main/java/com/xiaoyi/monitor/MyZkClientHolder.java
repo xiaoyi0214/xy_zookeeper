@@ -15,7 +15,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * Created on 2021/1/23.
- *
+ * 监控zookeeper指定节点下的数据变更
  * 1.提供外围接口来获取最新的子节点信息
  * 2.需要监听path下各个子节点个数的变化(增加、删除)需要监听path下各个子节点个数的变化(增加、删除)
  * 3.需要监听各个子节点数据的变化
